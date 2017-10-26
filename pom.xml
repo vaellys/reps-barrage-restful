@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">  
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.reps</groupId>
+		<artifactId>reps</artifactId>
+		<version>2.0-SNAPSHOT</version>  
+	</parent>  
+	<artifactId>reps-barrage-restful</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>reps-barrage-restful</name>
+	<packaging>jar</packaging>
+	
+	<properties>
+		<reps.new.version>2.0.1-SNAPSHOT</reps.new.version>
+		<reps.old.version>2.0-SNAPSHOT</reps.old.version>
+		<spring.version>4.2.5.RELEASE</spring.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.reps</groupId>
+			<artifactId>reps-core-boot</artifactId>
+			<version>${reps.new.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.reps</groupId>
+			<artifactId>reps-core-boot-db</artifactId>
+			<version>${reps.new.version}</version>
+		</dependency>
+		<dependency>
+				<groupId>com.reps</groupId>
+				<artifactId>reps-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.reps</groupId>
+			<artifactId>reps-core-restful</artifactId>
+			<version>${reps.new.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.reps</groupId>
+			<artifactId>reps-system</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.ezmorph</groupId>
+			<artifactId>ezmorph</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-pool2</artifactId>
+		    <version>2.0</version>
+		</dependency>
+    </dependencies>
+</project>
